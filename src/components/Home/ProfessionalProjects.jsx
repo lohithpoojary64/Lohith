@@ -1,9 +1,13 @@
 import React from "react";
+import Image from "next/image";
+import img1 from '../../../public/Projects/1.jpg';
+import img2 from '../../../public/Projects/2.jpg';
+import img3 from '../../../public/Projects/3.jpg';
 
 const items = [
-  { name: "Ecommerce" },
-  { name: "Netflix Clone" },
-  { name: "Spotify Clone" },
+  { name: "Ecommerce",img:img1 },
+  { name: "Netflix Clone" ,img:img2 },
+  { name: "Spotify Clone" ,img:img3 },
 ];
 
 const SelectedProjects = () => {
@@ -17,7 +21,7 @@ const SelectedProjects = () => {
               key={item.name}
               className="relative h-[80%] w-[30%]  border border-solid border-slate-400 rounded-2xl p-3"
             >
-              <h1>{item.name}</h1>
+              <Image src={item.img} alt="image" height={200} width={200} ></Image>
               <div className="absolute w-[92%] h-8 bottom-3 border border-solid border-slate-500 rounded-xl"></div>
             </div>
           );

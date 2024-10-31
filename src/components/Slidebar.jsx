@@ -19,7 +19,7 @@ const Slidebar = () => {
         <div className="w-[60%] text-sm ">
           <motion.h1
             initial={{ fontSize: "small", opacity: 0 }}
-            animate={{ fontSize: "large", opacity: 1 }}
+            animate={{ fontSize: "small", opacity: 1 }}
             transition={{ duration: 1, ease: "easeIn" }}
             className="font-bold text-lg"
           >
@@ -27,7 +27,7 @@ const Slidebar = () => {
           </motion.h1>
           <motion.h2
             initial={{ fontSize: "small", opacity: 0 }}
-            animate={{ fontSize: "medium", opacity: 1 }}
+            animate={{ fontSize: "small", opacity: 1 }}
             transition={{ duration: 1, ease: "easeIn" }}
             className="font-serif"
           >
