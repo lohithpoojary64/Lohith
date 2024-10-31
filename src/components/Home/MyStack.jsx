@@ -1,12 +1,12 @@
 import React from 'react';
 import next from '../../../public/next.png';
-import next from '../../../public/next.png';
-import next from '../../../public/next.png';
-import next from '../../../public/next.png';
-import next from '../../../public/next.png';
-import next from '../../../public/next.png';
-import next from '../../../public/next.png';
-import next from '../../../public/next.png';
+// import next from '../../../public/next.png';
+// import next from '../../../public/next.png';
+// import next from '../../../public/next.png';
+// import next from '../../../public/next.png';
+// import next from '../../../public/next.png';
+// import next from '../../../public/next.png';
+// import next from '../../../public/next.png';
 
 
 
