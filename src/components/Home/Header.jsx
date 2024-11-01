@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Header = () => {
   return (
-    <div className="relative h-[350px] w-full p-5 flex flex-col justify-center items-start">
+    <div className="relative h-[350px] w-full  flex flex-col justify-center items-start">
       <motion.h1
         className="font-sans text-3xl font-bold text-black relative mt-4"
         initial={{ fontSize: "10px", opacity: 0 }}

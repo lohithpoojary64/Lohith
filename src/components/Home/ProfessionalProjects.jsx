@@ -12,7 +12,7 @@ const items = [
 
 const SelectedProjects = () => {
   return (
-    <div className="h-[400px] w-[100%] flex flex-col justify-center items-start p-5">
+    <div className="h-[400px] w-[100%] flex flex-col justify-center items-start">
       <h1 className="font-bold text-3xl">Selected Projects</h1>
       <div className="relative flex justify-between items-center h-[300px] w-full border border-dashed border-slate-400 rounded-xl mt-5 px-3">
         {items.map((item) => {

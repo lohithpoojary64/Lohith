@@ -33,7 +33,7 @@ const items = [
 
 const MyStack = () => {
     return (
-        <div className='h-[300px] w-full p-5 '>
+        <div className='h-[300px] w-full '>
             <h1 className='font-bold text-3xl'>My Stack</h1>
             <div className='relative h-[200px] w-full flex flex-wrap gap-2 mt-5'>
                 {items.map((i) => {
