@@ -37,7 +37,7 @@ const SlideBarButtons = () => {
       <button
         className="h-[20%] w-full flex justify-start items-center gap-3 hover:border hover:border-solid hover:border-slate-400 hover:rounded-md transition-all-ease duration-300 p-2"
         onClick={() => {
-          router.push("/home");
+          router.push("/projects");
         }}
       >
         <Image src={project} alt="Images" height={20} width={20}></Image>
@@ -46,7 +46,7 @@ const SlideBarButtons = () => {
       <button
         className="h-[20%] w-full flex justify-start items-center gap-3 hover:border hover:border-solid hover:border-slate-400 hover:rounded-md transition-all-ease duration-300 p-2"
         onClick={() => {
-          router.push("/home");
+          router.push("/contact");
         }}
       >
         <Image src={contact} alt="Images" height={20} width={20}></Image>Contact
