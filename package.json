@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "antd": "^5.21.6",
+    "antd-mobile": "^5.38.1",
     "clipboard-copy": "^4.0.1",
     "framer-motion": "^11.11.9",
     "next": "15.0.1",

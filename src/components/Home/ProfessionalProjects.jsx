@@ -1,16 +1,18 @@
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import img1 from '../../../public/Projects/1.jpg';
 import img2 from '../../../public/Projects/2.jpg';
 import img3 from '../../../public/Projects/3.jpg';
 
 const items = [
-  { name: "Spotify Clone", skill: "Front-End", img: img1 },
-  { name: "Rejoice", skill: "Front-End", img: img2 },
-  { name: "Netflix Clone", skill: "Front-End", img: img3 },
+  { name: "Spotify Clone", skill: "Front-End", img: img1 , link:'https://spotify-clone1-snowy.vercel.app/' },
+  { name: "Rejoice", skill: "Front-End", img: img2 ,link:"https://animated-website-liard-tau.vercel.app/"},
+  { name: "Netflix Clone", skill: "Front-End", img: img3,link:"/" },
 ];
 
 const SelectedProjects = () => {
+  const router = useRouter();
   return (
     <div className="h-[400px] w-[100%] flex flex-col justify-center items-start">
       <h1 className="font-bold text-3xl">Selected Projects</h1>
@@ -19,7 +21,8 @@ const SelectedProjects = () => {
           return (
             <div
               key={item.name}
-              className="relative h-[80%] w-[33%] overflow-hidden border border-solid border-slate-400 rounded-2xl"
+              onClick={()=>{router.push(item.link)}}
+              className="relative h-[80%] w-[33%] overflow-hidden cursor-pointer border border-solid border-slate-400 rounded-2xl"
             >
               <Image src={item.img} alt="image" height={2000} width={2000} className="h-full w-full transform transition-transform duration-300 hover:scale-110" ></Image>
               <div className="absolute flex justify-center items-center w-full  h-8 bottom-3  ">

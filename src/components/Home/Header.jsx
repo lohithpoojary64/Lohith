@@ -28,10 +28,10 @@ const Header = () => {
         I have been developing websites since 1 year.
       </p>
       <div className="h-[80px] w-[30%] flex justify-between items-center mt-5">
-        <button className="h-[50px] w-[150px] bg-black text-white font-bold p-3 rounded-lg hover:bg-white hover:border hover:border-solid hover:border-black hover:text-black transition-all duration-300" onClick={()=>{
+        <button className="h-[50px] w-[150px] bg-black text-white font-bold p-3 rounded-lg hover:bg-white hover:border hover:border-solid hover:border-black hover:text-black transition-all duration-300" onClick={() => {
           router.push('/contact')
         }}>Get In Touch</button>
-        <button className="bg-white text-black font-bold p-3 rounded-lg border border-solid border-black hover:border-slate-600 hover:text-slate-600 transtion-all duration-300" >About Me</button>
+        <button className="bg-white text-black font-bold p-3 rounded-lg border border-solid border-black hover:border-slate-600 hover:text-slate-600 transtion-all duration-300" onClick={() => { router.push('/about') }} >About Me</button>
       </div>
     </div>
   );

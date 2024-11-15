@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Slidebar from "@/components/Slidebar";
+import SlidebarM from "@/components/Mobile/SlidebarM";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -22,9 +23,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex justify-between `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col lg:flex lg:flex-row lg:justify-between `}
       >
         <Slidebar/>
+        <SlidebarM/>
         {children}
       </body>
     </html>

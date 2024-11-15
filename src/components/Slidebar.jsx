@@ -13,7 +13,7 @@ const Slidebar = () => {
   const router = useRouter();
 
   return (
-    <div className="relative bg-slate-100 min-h-screen h-screen w-[20%] border border-solid border-x-black">
+    <div className="hidden lg:block relative bg-slate-100 min-h-screen h-screen w-[20%] border border-solid border-x-black">
       <div className="h-[100px] w-full p-2 flex justify-between items-center">
         <Profile />
         <div className="w-[60%] text-sm ">
