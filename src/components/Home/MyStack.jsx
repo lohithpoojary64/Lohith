@@ -33,12 +33,12 @@ const items = [
 
 const MyStack = () => {
     return (
-        <div className='h-[300px] w-full '>
+        <div className='h-[390px] lg:h-[300px] w-full '>
             <h1 className='font-bold text-3xl'>My Stack</h1>
             <div className='relative h-[200px] w-full flex flex-wrap gap-2 mt-5'>
                 {items.map((i) => {
                     return (
-                        <div key={i.skill} className=' flex gap-3 items-center h-[80px] w-[160px] '>
+                        <div key={i.skill} className=' flex gap-3 items-center h-[60px] w-[110px] lg:h-[80px] lg:w-[160px] '>
                             <div className='h-[60px] w-[60px] border border-dashed border-slate-500 rounded-xl flex justify-center items-center'>
                                 <Image src={i.img} alt='image' height={2000} width={2000} className='h-[50px] w-[50px]' ></Image>
                             </div>

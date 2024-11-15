@@ -14,7 +14,7 @@ const page = () => {
   };
 
   return (
-    <motion.div className="min-h-screen h-screen w-full px-8 overflow-y-scroll hide-scrollbar"
+    <motion.div className="min-h-screen h-screen w-full p-2 lg:px-8 overflow-y-scroll hide-scrollbar"
       initial="hidden"
       animate="visible"
       transition={{ duration: 0.8, ease: "easeOut" }} // Control duration and easing

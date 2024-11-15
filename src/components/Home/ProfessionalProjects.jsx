@@ -1,3 +1,4 @@
+'use client';
 import React from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
@@ -14,15 +15,15 @@ const items = [
 const SelectedProjects = () => {
   const router = useRouter();
   return (
-    <div className="h-[400px] w-[100%] flex flex-col justify-center items-start">
-      <h1 className="font-bold text-3xl">Selected Projects</h1>
-      <div className="relative flex justify-between items-center h-[300px] w-full border border-dashed border-slate-400 rounded-xl mt-5 px-3">
+    <div className="h-[650px] lg:h-[400px] w-[100%] flex flex-col justify-center items-start">
+      <h1 className="font-bold text-xl lg:text-3xl">Selected Projects</h1>
+      <div className="relative lg:flex lg:flex-row flex-col justify-between items-center h-full lg:h-[300px] w-full border border-dashed border-slate-400 rounded-xl mt-5 px-3">
         {items.map((item) => {
           return (
             <div
               key={item.name}
               onClick={()=>{router.push(item.link)}}
-              className="relative h-[80%] w-[33%] overflow-hidden cursor-pointer border border-solid border-slate-400 rounded-2xl"
+              className="relative h-[30%] mt-3 lg:mt-0 w-full lg:h-[80%] lg:w-[33%] overflow-hidden cursor-pointer border border-solid border-slate-400 rounded-2xl"
             >
               <Image src={item.img} alt="image" height={2000} width={2000} className="h-full w-full transform transition-transform duration-300 hover:scale-110" ></Image>
               <div className="absolute flex justify-center items-center w-full  h-8 bottom-3  ">
