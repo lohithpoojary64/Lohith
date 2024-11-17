@@ -18,7 +18,7 @@ const page = () => {
     <motion.div initial="hidden"
       animate="visible"
       transition={{ duration: 0.8, ease: "easeOut" }} // Control duration and easing
-      variants={animationVariants} className='min-h-screen h-screen w-full px-8 bg-slate-100  overflow-y-scroll hide-scrollbar'>
+      variants={animationVariants} className='min-h-screen h-screen w-full p-2 lg:px-8 bg-slate-100  overflow-y-scroll hide-scrollbar'>
       <Header />
       <div className="border border-dashed border-gray-400"></div>
       <BasedIn />
