@@ -25,9 +25,9 @@ const recentProjects = () => {
                             >
                                 <Image src={item.img} alt="image" height={2000} width={2000} className="h-full w-full transform transition-transform duration-300 hover:scale-110" ></Image>
                                 <div className="absolute flex justify-center items-center w-full  h-8 bottom-3  ">
-                                    <div className="w-[92%] h-full border border-solid dark:bg-white dark:text-black border-slate-500 rounded-xl p-2 flex justify-between items-center">
-                                        <h1 className="text-white">{item.name}</h1>
-                                        <h1 className="text-white">{item.skill}</h1>
+                                    <div className="w-[92%] h-full border border-solid dark:bg-white  border-slate-500 rounded-xl p-2 flex justify-between items-center">
+                                        <h1 className="text-white dark:text-black">{item.name}</h1>
+                                        <h1 className="text-white dark:text-black">{item.skill}</h1>
                                     </div>
                                 </div>
                             </div>
