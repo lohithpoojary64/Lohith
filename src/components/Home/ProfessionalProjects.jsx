@@ -27,7 +27,7 @@ const SelectedProjects = () => {
             >
               <Image src={item.img} alt="image" height={2000} width={2000} className="h-full w-full transform transition-transform duration-300 hover:scale-110" ></Image>
               <div className="absolute flex justify-center items-center w-full  h-8 bottom-3  ">
-                <div className=" w-[92%] h-full border border-solid border-slate-500 rounded-xl p-2 flex justify-between items-center bg-white dark:bg-white">
+                <div className=" w-[92%] h-full border border-solid border-slate-500 rounded-xl p-2 flex justify-between items-center bg-white dark:bg-white dark:text-black">
                   <h1 className=" text-black">{item.name}</h1>
                   <h1 className=" text-black">{item.skill}</h1>
                 </div>
