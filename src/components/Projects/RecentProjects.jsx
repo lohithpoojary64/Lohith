@@ -14,8 +14,8 @@ const items = [
 const recentProjects = () => {
     return (
         <div className='relative h-[810px] lg:h-[800px] w-full mt-20'>
-            <h1 className='font-bold text-3xl lg:text-5xl'>Recent Projects</h1>
-            <SearchBar />
+            <h1 className='font-bold text-3xl lg:text-5xl dark:text-white'>Recent Projects</h1>
+            {/* <SearchBar /> */}
             <div className='relative flex flex-wrap h-[60%] lg:h-[50%] w-full'>
                 {items.map((item) => {
                     return (

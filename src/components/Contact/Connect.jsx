@@ -18,9 +18,9 @@ const Connect = () => {
 
   return (
     <div className='relative h-[90px] w-full mt-4'>
-      <h1 className='font-bold text-sm lg:text-xl'>Let's Connect</h1>
+      <h1 className='font-bold text-sm lg:text-xl dark:text-white'>Let's Connect</h1>
       <div 
-        className='h-[40px] w-full lg:w-[280px] flex gap-3 items-center cursor-pointer p-2 bg-black text-white hover:bg-white hover:border hover:border-solid hover:border-black hover:text-black rounded-xl transition ease duration-300 mt-4' 
+        className='h-[40px] w-full lg:w-[280px] flex gap-3 items-center cursor-pointer p-2 bg-black text-white hover:bg-white hover:border hover:border-solid hover:border-black hover:text-black rounded-xl transition ease duration-300 mt-4 dark:bg-white' 
         onClick={copyToclipBoard}
       >
         <Image 
@@ -30,7 +30,7 @@ const Connect = () => {
           height={20} 
           width={20}
         />
-        <h1 className='font-bold'>{isCopied ? 'Copied!' : 'lohithpoojary64@gmail.com'}</h1>
+        <h1 className='font-bold dark:text-black'>{isCopied ? 'Copied!' : 'lohithpoojary64@gmail.com'}</h1>
       </div>
     </div>
   );

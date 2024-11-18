@@ -15,8 +15,8 @@ const items = [
 const SelectedProjects = () => {
   const router = useRouter();
   return (
-    <div className="h-[650px] lg:h-[400px] w-[100%] flex flex-col justify-center items-start">
-      <h1 className="font-bold text-xl lg:text-3xl">Selected Projects</h1>
+    <div className="h-[650px] lg:h-[400px] w-[100%] flex flex-col justify-center items-start mt-6 lg:mt-0">
+      <h1 className="font-bold text-xl lg:text-3xl dark:text-white">Selected Projects</h1>
       <div className="relative lg:flex lg:flex-row flex-col justify-between items-center h-full lg:h-[300px] w-full border border-dashed border-slate-400 rounded-xl mt-5 px-3">
         {items.map((item) => {
           return (

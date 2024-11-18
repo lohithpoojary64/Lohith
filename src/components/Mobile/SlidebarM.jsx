@@ -16,9 +16,9 @@ const SlidebarM = () => {
         setVisible(!visible);
     };
     return (
-        <div className='relative h-[80px] w-full flex gap-4 items-center p-3 lg:hidden shadow-sm'>
+        <div className='relative h-[80px] w-full flex gap-4 items-center p-3 lg:hidden shadow-sm dark:border dark:border-solid dark:border-white'>
             <Profile />
-            <div className="w-[50%] text-sm ">
+            <div className="w-[50%] text-sm dark:text-white">
                 <h1
                     className="font-bold text-xs"
                 >
