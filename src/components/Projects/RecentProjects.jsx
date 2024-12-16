@@ -6,9 +6,9 @@ import img3 from '../../../public/Projects/3.jpg';
 import SearchBar from './SearchBar';
 
 const items = [
-    { name: "Ecommerce", skill: "Front-End", img: img1 },
-    { name: "Netflix Clone", skill: "Front-End", img: img2 },
-    { name: "Spotify Clone", skill: "Front-End", img: img3 },
+    { name: "Spotify Clone", skill: "Front-End", img: img1 },
+    { name: "Rejoice Animated website", skill: "Front-End", img: img2 },
+    { name: "Netflix clone", skill: "Front-End", img: img3 },
 ];
 
 const recentProjects = () => {
